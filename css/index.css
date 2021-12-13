@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-color: #dbe8f5 !important;
+}
+
+.carousel-item img{
+    width: 100%;
+    min-height:93vh;
+}
+h1,.navbar-brand{
+    font-weight: 700 !important;
+    color: black;
+}
+.aboutImage{
+    display: block;
+    width:100%;
+    height: 380px;
+    transition: 0.3s;
+}
+
+.subHeading,.paraContent{
+    color: black;
+}
+.paraContent{
+    text-align: justify;
+    text-justify:inter-word;
+}
+.blue{
+    color: blue;
+}
+.testimonialImage{
+    width: 200px;
+    border-radius: 50%;
+}
+.testimonials{
+    background-color: skyblue;
+}
+q{
+    font-family:monospace;
+}
+.footerBack{
+    background-color: #2b2626;
+}
+.importantLinks h5{
+    color: #f3ebeb;
+    font-weight: 900;
+}
+.importantLinks a{
+    color: #f3ebeb;
+    text-decoration: none;
+    display: block;
+    width:23%;
+}
+
+.SocialLinks h5{
+    color: #f3ebeb;
+    font-weight: 900;
+}
+.SocialLinks a{
+    color: #f3ebeb;
+    text-decoration: none;
+    display: block;
+    width:21%;
+}
+
+.Subscribe h5{
+    color: #f3ebeb;
+    font-weight: 900;
+}
+.Subscribe p{
+    color: #f3ebeb;
+    
+}
+.copy{
+    color: #f3ebeb;
+}
+.galleryImg{
+    transition: 0.3s;
+    display: block;
+}
+
+
+/* hover  */
+
+.aboutImage:hover{
+    display: block;
+    width: 95%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.galleryImg:hover{
+    transition: 0.3s;
+    display: block;
+    width: 95%;
+    cursor: pointer;
+}
+.importantLinks a:hover{
+    color: yellow;
+}
+.SocialLinks a:hover{
+    color: yellow;
+}
+
+
+/* media query */
+@media (max-width:1800px){
+    .carousel-item img{
+        min-height:50vh;
+    }
+}
+@media (max-width:991px){
+    .carousel-item img{
+        min-height:50vh;
+    }
+}
+@media (max-width:770px){
+    .carousel-item img{
+        min-height:50vh;
+    }
+    
+    .footerBack,.footerBack a{
+        width: 100%;
+        text-align: center;
+    }
+    .importantLinks,.Subscribe,.SocialLinks{
+        margin-top: 2rem;
+    }
+    .testimonilContent .px-5 {
+        padding-right: 0rem!important;
+        padding-left: 0rem!important;
+    }
+    #testimonial .container-fluid .px-5 {
+        padding-right: 0.5rem!important;
+        padding-left: 0.5rem!important;
+    }
+}
+@media (max-width:400px){
+    .carousel-item img{
+        min-height:30vh;
+    }
+    .carousel-item{
+        font-size: 0.6rem;
+    }
+    
+}
